@@ -1,0 +1,10 @@
+title: Herramienta
+tags: 
+colorID: 0
+position: 583,227
+---
+<< if visited("Herramienta") is false>> 
+Mikey: Miren, aquí hay algo que quiza nos ayude a abrir la puerta.
+Shae: ¿Cuál debería intentar abrir la puerta?
+<< endif >> 
+===

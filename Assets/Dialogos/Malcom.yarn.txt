@@ -1,0 +1,59 @@
+title: Malcom
+tags: 
+colorID: 0
+position: 447,153
+---
+<<if visited("Malcom") is false>>
+Douglas: Hola, ella es Shae, él es Mikey y yo soy Douglas... No, no sabemos que hacemos aquí o porque.
+Malcom: Yo soy Malcom.
+Douglas: Debemos pensar una forma de salir de aquí.
+Malcom: Allí hay una puerta.
+Douglas: ¿Ideas?
+Malcom: Debe haber algo en esta sala que nos ayude a abrirla. 
+<<else>>
+Malcom: Si consigues una herramienta yo podría ser de ayuda para abrir la puerta.
+<<endif>>
+
+[[Deberia intentar abrir Shae.|Malcom.TrataShae]]
+
+[[Deberia intentar abrir Mikey.|Malcom.TrataMikey]]
+
+[[Deberia tratar de abrir Malcom.|Malcom.TrataMalcom]]
+===
+title: Malcom.TrataShae
+tags: 
+colorID: 0
+position: 139,332
+---
+<< if visited("Malcom.TrataShae") is false>>
+Shae: Bueno, intentemoslo. 
+<< else >> 
+Shae: He roto la cerradura.
+Mikey: Ahora hay que buscar otra manera.
+Malcom: Podríamos forzar la puerta.
+<< endif >> 
+===
+title: Malcom.TrataMikey
+tags: 
+colorID: 0
+position: 446,399
+---
+<< if visited("Malcom.TrataMikey") is false>>
+Mikey: Bueno, intentemoslo. 
+<< else >> 
+Mikey: He roto la cerradura.
+Shae: Ahora hay que buscar otra manera.
+Malcom: Podríamos forzar la puerta.
+<< endif >> 
+===
+title: Malcom.TrataMalcom
+tags: 
+colorID: 0
+position: 743,288
+---
+<< if visited("Malcom.TrataMalcom") is false>>
+Malcom: Bueno, intentemoslo. 
+<< else >> 
+Malcom: Listo, he podido abrirla.
+<< endif >> 
+===
